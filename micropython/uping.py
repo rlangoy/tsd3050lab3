@@ -1,7 +1,14 @@
 # µPing (MicroPing) for MicroPython
+# https://gist.github.com/shawwwn/91cc8979e33e82af6d99ec34c38195fb
 # copyright (c) 2018 Shawwwn <shawwwn1@gmail.com>
 # License: MIT
-
+#
+# Mod Rune Langoy 2022
+#
+# randint function
+#  bitninja - Sun Mar 24, 2019 3:41 pm
+#  https://forum.micropython.org/viewtopic.php?t=6158
+#
 # Internet Checksum Algorithm
 # Author: Olav Morken
 # https://github.com/olavmrk/python-ping/blob/master/ping.py

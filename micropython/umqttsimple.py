@@ -1,3 +1,10 @@
+# umqttsimple.py - Rui Santos RuiSantosdotme (hello@ruisantos.me)
+# Source @ https://github.com/RuiSantosdotme/ESP-MicroPython/tree/master/code/MQTT
+#
+# Part of the blog: https://randomnerdtutorials.com/micropython-mqtt-esp32-esp8266/
+# https://github.com/RuiSantosdotme/ESP-MicroPython 
+# License : missing
+#
 try:
     import usocket as socket
 except:

@@ -1,10 +1,14 @@
 import network
 import sys
 from time import sleep
-sta_if = network.WLAN(network.STA_IF)     # Fast WIFI-netverk
-sta_if.active(True)                       # Enable radio motak
+ap_if =network.WLAN(network.AP_IF)        #Acess Point
+ap_if.active(False)                       #Diasable AP
 
-wifi_ssid="elab-open"
+sta_if = network.WLAN(network.STA_IF)     # WirelessLan (WIFI-network)
+sta_if.active(True)                       # Enable WIFI-connect to 
+
+wifi_ssid=""
+assert wifi_ssid!="",    "Oh no! wifi_ssid not set"
 wifi_password=""
 assert wifi_password!="", "Oh no! wifi_password not set"
     

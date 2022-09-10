@@ -8,7 +8,7 @@ assert mqtt_user!='', 'Oh no! mqtt_user is not set (mqtt user name is requred)'
 mqtt_password=''
 assert mqtt_password!='', "Oh no! mqtt_password is not set(mqtt user's password is requred)"
 mqtt_topic=b''
-assert mqtt_topic!='', "Oh no! mqtt_topic is not set(mqtt Topic (listening chanel is requred))"
+assert mqtt_topic!=b'', "Oh no! mqtt_topic is not set(mqtt Topic (listening chanel is requred))"
 
 #called everytime data is pushed on a subscribed topic
 def callback_routine(feed, msg):
